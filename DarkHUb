@@ -1,0 +1,14 @@
+local DarkLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/dark"))()
+local Window = DarkLib:Window()
+local Tab1 = Window:Tab("Tab1")
+
+
+---
+Tab1:Button("Button", function()
+print("Button pressed")
+end)
+---
+
+
+
+
