@@ -1,14 +1,41 @@
-local DarkLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/dark"))()
-local Window = DarkLib:Window()
-local Tab1 = Window:Tab("Tab1")
+local DarkLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/dark"))() 
+local WindowOne = DarkLib:Window() -- Makes Window
+
+local TabOne = WindowOne:Tab("Tab One") -- Makes Tab
+local TabTwo = WindowOne:Tab("Tab Twp") -- Makes Tab
+local TabThree = WindowOne:Tab("Tab Three") -- Makes Tab
+local TabFour = WindowOne:Tab("Tab Four") -- Makes Tab
+local TabFive = WindowOne:Tab("Tab Five") -- Makes Tab
+local TabSix = WindowOne:Tab("Tab Siz") -- Makes Tab
+local TabSeven = WindowOne:Tab("Tab Siz") -- Makes Tab
+local TabEight = WindowOne:Tab("Tab Siz") -- Makes Tab
+--TabSeven:Keybind(KeyBind, key, callback)
 
 
----
-Tab1:Button("Button", function()
-print("Button pressed")
-end)
----
 
 
+TabOne:Button("Button", function() -- Makes Button
+    --Button
+    end)
+    
+TabTwo:Toggle("Toggle", function()
+    --Toggle
+    end)
+TabThree:Slider("Slider", 0, 50, function()
+    --Slider
+    end)
 
+--TabFour:Dropdown("DropDown", list, callback)
+--TabFive:Colorpicker("Color Picker", preset, callback)
 
+TabSix:Textbox("Text Box", "disapper", function()
+    --Text Box
+    end)
+
+TabEight:Label("Label")
+    
+    
+    
+    
+    
+    
